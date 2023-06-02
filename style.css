@@ -53,32 +53,28 @@
   color: #ffb727;
 }
 
-@media (max-width: 575px) {
-  #hero h1 {
-    font-size: 40px;
-  }
 
-  #hero h2 {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-}
+
+
+
+
+
 
 .profile-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  /* align-items: center; */
   text-align: center;
   padding: 80px;
   background: rgba(0, 0, 0, 0.2);
 }
 
-.profile-container img {
+/* .profile-container img {
   display: block;
   max-width: 100%;
   margin-bottom: 10px;
   margin-top: 30px;
-}
+} */
 
 .profile-container h2 {
   margin: 0;
@@ -89,12 +85,12 @@
   margin-bottom: 10px;
 }
 
-img {
+/* img {
   height: 150px;
-  width: 200px;
+  width: 170px;
   border-radius: 50%;
   align-items: center;
-}
+} */
 
 /* footer */
 #Footer {
@@ -104,6 +100,7 @@ img {
   justify-content: center;
   align-items: center;
 }
+
 
 .copyright {
   color: #eaf6f6;
@@ -125,8 +122,46 @@ a:hover {
   color: #eaf6f6;
 }
 
-.footer-link{
-  
-  
+
+.profile-container h2 {
+  margin: 0;
+  padding: 20px;
 }
 
+.profile-container p {
+  margin-bottom: 10px;
+}
+
+.profile-pic {
+  height: 150px;
+  width: 170px;
+  border-radius: 50%;
+  align-items: center;
+}
+
+
+
+
+
+.projects{
+  background: rgba(0, 0, 0, 0.2);
+}
+img.twitter{
+  
+    height: 150px;
+    width: 170px;
+    
+    align-items: center;
+}
+
+.card-post {
+  height: aut;
+}
+
+.card.text-bg-primary.text-center.p-3.prof {
+  margin-right: 50px;
+  font-size: 14px;
+  padding: 10px;
+  margin-top: 110px;
+  
+}
