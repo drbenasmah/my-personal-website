@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
   </head>
 
   <body>
@@ -90,24 +91,33 @@
 
     <!-- Projects -->
 
-    <section>
+    <section >
       <main class="container py-5">
         <hr class="my-5" />
 
         <div class="row" data-masonry='{"percentPosition": true }'>
           <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="card">
-              <img src="./assets/images/new-project.png" alt="" />
-              <div class="card-body">
-                <h5 class="card-title">Card title that wraps to a new line</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-              </div>
+            <!-- Original card is removed -->
+            <div class="bmi">
+              <h2>Benas BMI Calculator</h2>
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" />
+            </div>
+            <div>
+              <label for="weight">Weight (kg):</label>
+              <input type="number" id="weight" />
+            </div>
+            <div>
+              <label for="height">Height (m):</label>
+              <input type="number" id="height" step="0.01" />
+            </div>
+            <button onclick="calculateBMI()">Calculate</button>
+            <div id="bmi-result"></div>
             </div>
           </div>
+          
+        
 
           <div class="col-sm-6 col-lg-4 mb-4" style="left: 50%">
             <div class="card p-3">
@@ -174,6 +184,13 @@
         </div>
       </main>
     </section>
+
+
+
+
+
+
+     
 
     <!-- FOOTER -->
 
