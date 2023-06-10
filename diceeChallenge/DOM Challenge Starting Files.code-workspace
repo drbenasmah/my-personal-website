@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "DOM Challenge Starting Files",
+		"path": "../../../../Downloads/DOM Challenge Starting Files"
+	},
+	{
+		"name": "javacript-files",
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "javacript-files"
+  }
+}
