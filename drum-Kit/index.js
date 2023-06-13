@@ -4,15 +4,17 @@ for (i = 0; i < element.length; i++) {
   element[i].addEventListener("click", function () {
     var buttonInnerHTML = this.innerHTML;
     playSound(buttonInnerHTML);
+    buttonAnimation(buttonInnerHTML);
 
     // Add event listener to detect key presses
     document.addEventListener("keydown", function (event) {
       var key = event.key.toLowerCase();
       playSound(key);
+      buttonAnimation(key);
     });
 
-    function playSound(character) {
-      switch (character) {
+    function playSound(key) {
+      switch (key) {
         case "w":
           var tom1 = new Audio("sounds/tom-1.mp3");
           tom1.play();
@@ -54,3 +56,12 @@ for (i = 0; i < element.length; i++) {
     }
   });
 }
+function buttonAnimation(currentKey) {
+  let activeButton = document.querySelector("." + currentKey);
+  activeButton.classList.add("pressed");
+
+  setTimeout(function() {
+    activeButton.classList.remove("pressed");
+  }, 100);
+}
+
