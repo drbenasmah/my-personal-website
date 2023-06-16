@@ -90,33 +90,41 @@
 
     <!-- Projects -->
 
-    <section>
-      <main class="container py-5">
+    <section class="custom-section">
+      <div class="container-fluid py-5">
         <hr class="my-5" />
 
-        <div class="row" data-masonry='{"percentPosition": true }'>
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <!-- Original card is removed -->
-            <div class="bmi">
-              <h2>Benas BMI Calculator</h2>
-              <div>
-                <label for="name">Name:</label>
-                <input type="text" id="name" />
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+            <div class="card bmi">
+              <div class="card-body">
+                <h2>Benas BMI Calculator</h2>
+                <div>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" class="form-control" />
+                </div>
+                <div>
+                  <label for="weight">Weight (kg):</label>
+                  <input type="number" id="weight" class="form-control" />
+                </div>
+                <div>
+                  <label for="height">Height (m):</label>
+                  <input
+                    type="number"
+                    id="height"
+                    step="0.01"
+                    class="form-control"
+                  />
+                </div>
+                <button onclick="calculateBMI()" class="btn btn-primary">
+                  Calculate
+                </button>
+                <div id="bmi-result"></div>
               </div>
-              <div>
-                <label for="weight">Weight (kg):</label>
-                <input type="number" id="weight" />
-              </div>
-              <div>
-                <label for="height">Height (m):</label>
-                <input type="number" id="height" step="0.01" />
-              </div>
-              <button onclick="calculateBMI()">Calculate</button>
-              <div id="bmi-result"></div>
             </div>
           </div>
 
-          <div class="col-sm-6 col-lg-4 mb-4" style="left: 50%">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
             <div class="card p-3">
               <figure class="p-3 mb-0">
                 <blockquote class="blockquote">
@@ -132,9 +140,13 @@
             </div>
           </div>
 
-          <div class="col-sm-6 col-lg-4 mb-4" style="left: 50%; top: 222px">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
             <div class="card">
-              <img src="./assets/images/dice-game.png" alt="" />
+              <img
+                src="./assets/images/dice-game.png"
+                alt=""
+                class="card-img-top"
+              />
               <div class="card-body">
                 <h5 class="card-title">
                   <a href="./projects-file/diceeChallenge/dicee.html"
@@ -142,16 +154,14 @@
                   >
                 </h5>
                 <p class="card-text">
-                  This<a href="./projects-file/diceeChallenge/dicee.html"
-                    >Dice Game </a
-                  >is a chance-based game where players roll dice to determine
-                  their fate. Click on it and play
+                  This Dice Game is a chance-based game where players roll dice
+                  to determine their fate. Click on it and play.
                 </p>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-6 col-lg-4 mb-4" style="top: 434px">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
             <div class="card text-bg-primary text-center p-3">
               <figure class="mb-0">
                 <blockquote class="blockquote">
@@ -164,30 +174,219 @@
             </div>
           </div>
 
-          <div class="col-sm-6 col-lg-4 mb-4" style="top: 624px">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
             <!-- Empty placeholder card -->
           </div>
 
-          <div
-            class="col-sm-6 col-lg-4 mb-4"
-            style="left: 50%; top: 624px; margin-top: 70px"
-          >
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
             <div class="card">
-              <img src="./assets/images/drum-kits.png" alt="" />
+              <img
+                src="./assets/images/drum-kits.png"
+                alt=""
+                class="card-img-top"
+              />
               <div class="card-body">
                 <h5 class="card-title">
                   <a href="./projects-file/drum-Kit/index.html">Drum kits</a>
                 </h5>
                 <p class="card-text">
                   This drum kit can be played by either using the keyboard or
-                  clicking on the drums.click
-                  <a href="./projects-file/drum-Kit/index.html">HERE</a>to open
+                  clicking on the drums. Click
+                  <a href="./projects-file/drum-Kit/index.html">HERE</a> to
+                  open.
                 </p>
               </div>
             </div>
           </div>
         </div>
-      </main>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- second project 2 -->
+    <section class="custom-section">
+      <div class="album py-5 bg-body-tertiary">
+        <div class="container-fluid custom-container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./assets/images/simon-Game.png"
+                  class="card-img-top"
+                  alt="Thumbnail"
+                  width="100%"
+                  height="450"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    <h2><a href="./projects-file/simon-Game-Challenge/index.html"> click:   The SIMON GAME</a></h2>
+                    This is  🎮 How to play:
+                    Remember the sequence of colors displayed by the game and click the buttons accordingly.
+                    Mistakes end the game. 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./assets/images/new-project.png"
+                  class="card-img-top"
+                  alt="Thumbnail"
+                  width="100%"
+                  height="450"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./assets/images/new-project.png"
+                  class="card-img-top"
+                  alt="Thumbnail"
+                  width="100%"
+                  height="450"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./assets/images/new-project.png"
+                  class="card-img-top"
+                  alt="Thumbnail"
+                  width="100%"
+                  height="450"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./assets/images/new-project.png"
+                  class="card-img-top"
+                  alt="Thumbnail"
+                  width="100%"
+                  height="450"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./assets/images/new-project.png"
+                  class="card-img-top"
+                  alt="Thumbnail"
+                  width="100%"
+                  height="450"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./assets/images/new-project.png"
+                  class="card-img-top"
+                  alt="Thumbnail"
+                  width="100%"
+                  height="450"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./assets/images/new-project.png"
+                  class="card-img-top"
+                  alt="Thumbnail"
+                  width="100%"
+                  height="450"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./assets/images/new-project.png"
+                  class="card-img-top"
+                  alt="Thumbnail"
+                  width="100%"
+                  height="450"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
     </section>
 
     <!-- FOOTER -->

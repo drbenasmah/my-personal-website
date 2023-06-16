@@ -220,13 +220,31 @@ button:hover {
 }
 .bmi {
 
-    max-width: 400px;
+    max-width: 600px;
+    
     margin: 0 auto;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     text-align: center;
 }
+
+.custom-section {
+  background: rgba(0, 0, 0, 0.2); 
+}
+
+.bg-body-tertiary {
+  background: rgba(104, 13, 13, 0.2); 
+}
+
+.custom-container {
+  margin: 0 auto; /* Center the container horizontally */
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: rgba(0, 0, 0, 0.2); /* Replace with your desired background color */
+}
+
+
 
 
 
