@@ -53,4 +53,23 @@ h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-family: 'Arial', sans-serif;
 }
+.created-by {
+  margin-top: 20px;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  color: #4ECCA3;
+  text-align: center;
+}
+
+.created-by span {
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+.created-by::after {
+  content: "";
+  display: block;
+ 
 
