@@ -117,3 +117,16 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 2.8rem;
+}
