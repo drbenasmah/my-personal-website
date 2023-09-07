@@ -240,7 +240,7 @@ a:focus {
 }
 
 .about_section .detail-box a:hover {
-  background-color: #bc570d;
+  background-color: #055a1a;
 }
 
 .client_section {
@@ -368,3 +368,312 @@ a:focus {
   background-position: center;
   height: 80vh;
 }
+
+.contact_section {
+  position: relative;
+}
+
+.contact_section .heading_container {
+  margin-bottom: 25px;
+}
+
+.contact_section .heading_container h2 {
+  text-transform: uppercase;
+}
+
+.contact_section .form_container {
+  margin-right: 15px;
+}
+
+.contact_section .form_container input {
+  width: 100%;
+  border: none;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  outline: none;
+  color: #101010;
+  -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+}
+
+.contact_section .form_container input::-webkit-input-placeholder {
+  color: #252525;
+}
+
+.contact_section .form_container input:-ms-input-placeholder {
+  color: #252525;
+}
+
+.contact_section .form_container input::-ms-input-placeholder {
+  color: #252525;
+}
+
+.contact_section .form_container input::placeholder {
+  color: #252525;
+}
+
+.contact_section .form_container input.message-box {
+  height: 120px;
+}
+
+.contact_section .form_container button {
+  border: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 55px;
+  background-color: #f07b26;
+  color: #ffffff;
+  border-radius: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+}
+
+.contact_section .form_container button:hover {
+  background-color: #bc570d;
+}
+
+.contact_section .map_container {
+  height: 450px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  padding: 0;
+}
+
+.contact_section .map_container .map {
+  height: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.contact_section .map_container .map #googleMap {
+  height: 100%;
+}
+
+.info_section {
+  background-color: #252525;
+  color: #ffffff;
+  padding: 45px 0;
+  margin-top: 20px;
+}
+
+.info_section .contact_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.info_section .contact_nav a {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.info_section .contact_nav a i {
+  font-size: 28px;
+}
+
+.info_section .contact_nav a:hover {
+  color: #f07b26;
+}
+
+.info_section .info_top {
+  padding: 45px 0;
+}
+
+.info_section h4 {
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.info_section .info_links .info_links_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.info_section .info_links .info_links_menu a {
+  color: #ffffff;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+}
+
+.info_section .info_links .info_links_menu a:hover,
+.info_section .info_links .info_links_menu a.active {
+  color: #f07b26;
+}
+
+.info_section .info_post .post_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.info_section .info_post .post_box .img-box {
+  min-width: 45px;
+  max-width: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  -ms-flex-preferred-size: calc(33% - 10px);
+  flex-basis: calc(33% - 10px);
+  padding: 5px;
+  margin: 5px;
+}
+
+.info_section .info_post .post_box .img-box img {
+  width: 100%;
+}
+
+.info_section .info_post .post_box p {
+  margin: 0;
+}
+
+.info_section .info_post .post_box:not(:nth-last-child(1)) {
+  margin-bottom: 15px;
+}
+
+.info_section .info_form input {
+  width: 100%;
+  border: none;
+  height: 45px;
+  margin-bottom: 25px;
+  padding-left: 25px;
+  background-color: #eaeaea;
+  outline: none;
+  color: #101010;
+}
+
+.info_section .info_form button {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #f07b26;
+  color: #ffffff;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+}
+
+.info_section .info_form button:hover {
+  background-color: #bc570d;
+}
+
+.info_section .info_bottom .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.info_section .info_bottom .info_logo {
+  margin-right: 45px;
+}
+
+.info_section .info_bottom .info_logo a img {
+  width: 125px;
+}
+
+.info_section .info_bottom .social_box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
+}
+
+.info_section .info_bottom .social_box a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  color: #f07b26;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.info_section .info_bottom .social_box a:hover {
+  color: #252525;
+}
+
+/* About Us Section Styles */
+.about_us_section {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.about_us_section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about_us_section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.about_us_section ul {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.about_us_section ul li {
+  margin-bottom: 10px;
+}
+
+/* End About Us Section Styles */
