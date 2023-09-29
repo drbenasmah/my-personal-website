@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" type="text/css" href="styleQr.css" />
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Benas QR Code Generator</h1>
+      <div class="input-section">
+        <label for="url-input">Enter URL:</label>
+        <input type="text" id="url-input" placeholder="https://example.com" />
+        <button id="generate-button">Generate QR Code</button>
+      </div>
+      <div class="qr-code-container" id="qr-code"></div>
+      <div class="created-by">Created by <a href="https://drbenasmah.github.io/my-personal-website/">Ben Asmah</a> </div>
+    </div>
+    
+
+    <script src="./scriptQr.js"></script>
+  </body>
+</html>
