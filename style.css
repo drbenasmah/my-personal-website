@@ -62,8 +62,6 @@
   background: rgba(0, 0, 0, 0.2);
 }
 
-
-
 .profile-pic {
   height: auto;
   width: 100%;
@@ -124,13 +122,10 @@ a:hover {
     /* padding: 5%; */
   }
 
- .profile-container h2 {
+  .profile-container h2 {
     margin-top: 50px;
   }
-
-
 }
-
 
 /* BMI */
 
@@ -167,7 +162,6 @@ h2 {
 
 div {
   margin-bottom: 10px;
-  
 }
 
 label {
@@ -195,7 +189,6 @@ button {
   cursor: pointer;
 }
 
-
 button:hover {
   background-color: #45a049;
 }
@@ -212,40 +205,38 @@ button:hover {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  
+
   .col-lg-4 {
     flex: 0 0 100%;
     max-width: 100%;
   }
 }
 .bmi {
+  max-width: 600px;
 
-    max-width: 600px;
-    
-    margin: 0 auto;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
 }
 
 .custom-section {
-  background: rgba(0, 0, 0, 0.2); 
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .bg-body-tertiary {
-  background: rgba(104, 13, 13, 0.2); 
+  background: rgba(104, 13, 13, 0.2);
 }
 
 .custom-container {
   margin: 0 auto; /* Center the container horizontally */
   padding-left: 40px;
   padding-right: 40px;
-  background-color: rgba(0, 0, 0, 0.2); /* Replace with your desired background color */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.2
+  ); /* Replace with your desired background color */
 }
-
-
-
-
-
-
